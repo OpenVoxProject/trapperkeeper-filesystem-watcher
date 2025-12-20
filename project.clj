@@ -36,6 +36,6 @@
 
   :plugins  [[lein-parent "0.3.7"]
              [jonase/eastwood "1.4.2"]
-             [org.openvoxproject/i18n "0.9.2"]]
+             [org.openvoxproject/i18n "0.9.3-SNAPSHOT"]]
 
   :main puppetlabs.trapperkeeper.main)
