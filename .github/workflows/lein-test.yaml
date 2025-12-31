@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: ['11', '17']
+        version: ['17', '21']
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
@@ -25,6 +25,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ matrix.version }}
+      - name: Install Clojure tools
+        uses: DeLaGuardo/setup-clojure@13.4
+        with:
+          lein: latest
       - name: clojure tests
         run: lein test
         timeout-minutes: 30

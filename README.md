@@ -1,6 +1,6 @@
 # trapperkeeper-filesystem-watcher
 
-This library includes a [Trapperkeeper](https://github.com/puppetlabs/trapperkeeper)
+This library includes a [Trapperkeeper](https://github.com/openvoxproject/trapperkeeper)
 service which provides an API for watching paths on the filesystem for changes
 and doing something when they change.
 
@@ -8,11 +8,9 @@ and doing something when they change.
 
 Add the following dependency to your project.clj file:
 
-[![Clojars Project](https://img.shields.io/clojars/v/puppetlabs/trapperkeeper-filesystem-watcher.svg)](https://clojars.org/puppetlabs/trapperkeeper-filesystem-watcher)
+[![Clojars Project](https://img.shields.io/clojars/v/org.openvoxproject/trapperkeeper-filesystem-watcher.svg)](https://clojars.org/org.openvoxproject/trapperkeeper-filesystem-watcher)
 
 ## Development
-
-[![Build Status](https://travis-ci.org/puppetlabs/trapperkeeper-filesystem-watcher.svg?branch=master)](https://travis-ci.org/puppetlabs/trapperkeeper-filesystem-watcher)
 
 The service implementation in this repository is based on java.nio's
 [`WatchService`](https://docs.oracle.com/javase/8/docs/api/java/nio/file/WatchService.html).
@@ -28,10 +26,4 @@ code gets into CI.
 
 ## Contributing & Support
 
-Bug reports and feature requests are welcome via GitHub issues.
-
-For interactive questions feel free to post to #puppet or #puppet-dev on the Puppet Community Slack channel.
-
-Contributions are welcome at https://github.com/puppetlabs/trapperkeeper-filesystem-watcher/pulls. Contributors should both be sure to read the contributing document and sign the contributor license agreement.
-
-Everyone interacting with the project’s codebase, issue tracker, etc is expected to follow the code of conduct.
+GitHub issues and PRs are welcome! Additionally, drop us a line in [the Vox Pupuli Slack](https://voxpupuli.slack.com).

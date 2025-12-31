@@ -36,7 +36,7 @@
         (loop [tries max-future-cancel-wait-tries]
           (if (and (pos? tries) (not (future-done? watchers-future)))
             (do
-              (Thread/sleep future-cancel-wait-sleep-ms)
+              (Thread/sleep (long future-cancel-wait-sleep-ms))
               (recur (dec tries)))
             (log/debug (trs "Future completed after {0} tries" (- max-future-cancel-wait-tries tries)))))
         (catch Throwable e

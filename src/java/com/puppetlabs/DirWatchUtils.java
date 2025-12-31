@@ -1,6 +1,5 @@
 package com.puppetlabs;
 
-import com.sun.nio.file.SensitivityWatchEventModifier;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
@@ -30,8 +29,7 @@ public class DirWatchUtils {
             dir.register(watcher,  new WatchEvent.Kind[]{
                     StandardWatchEventKinds.ENTRY_MODIFY,
                     StandardWatchEventKinds.ENTRY_CREATE,
-                    StandardWatchEventKinds.ENTRY_DELETE},
-                    SensitivityWatchEventModifier.HIGH);
+                    StandardWatchEventKinds.ENTRY_DELETE});
 	} catch (NoSuchFileException ex) {
 	    log.warn(String.format("Failed to register watcher for path '%s'. Encountered error: %s",
 		    dir.toString(),
