@@ -715,7 +715,7 @@
                      (swap! callback-invocations inc))
           app (tk/boot-services-with-config [filesystem-watch-service] {})
           svc (tk-app/get-service app :FilesystemWatchService)
-          event-cadence (quot watch-core/window-min 2)]
+          event-cadence (long (quot watch-core/window-min 2))]
       ;; We trigger half the minimum number of events that could independently
       ;; occur without exceeding the window-max, given the fixed event-cadence
       ;; set above, we set the event-cadence to half of window-min to increase
