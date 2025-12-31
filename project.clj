@@ -6,7 +6,7 @@
 
   :min-lein-version "2.9.1"
 
-  :parent-project  {:coords [org.openvoxproject/clj-parent "7.5.0"]
+  :parent-project  {:coords [org.openvoxproject/clj-parent "7.5.1"]
                     :inherit [:managed-dependencies]}
 
   :pedantic? :abort
@@ -36,6 +36,6 @@
 
   :plugins  [[lein-parent "0.3.7"]
              [jonase/eastwood "1.4.2"]
-             [org.openvoxproject/i18n "0.9.3"]]
+             [org.openvoxproject/i18n "0.9.4"]]
 
   :main puppetlabs.trapperkeeper.main)
