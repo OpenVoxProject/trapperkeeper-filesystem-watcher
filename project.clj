@@ -1,4 +1,4 @@
-(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.8-SNAPSHOT"
+(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.8"
   :description "Trapperkeeper filesystem watcher service"
   :url "https://github.com/openvoxproject/trapperkeeper-filesystem-watcher"
   :license {:name "Apache License, Version 2.0"
