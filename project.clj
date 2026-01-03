@@ -1,4 +1,4 @@
-(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.9-SNAPSHOT"
+(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.3.0-SNAPSHOT"
   :description "Trapperkeeper filesystem watcher service"
   :url "https://github.com/openvoxproject/trapperkeeper-filesystem-watcher"
   :license {:name "Apache License, Version 2.0"
@@ -6,7 +6,7 @@
 
   :min-lein-version "2.9.1"
 
-  :parent-project  {:coords [org.openvoxproject/clj-parent "7.5.1"]
+  :parent-project  {:coords [org.openvoxproject/clj-parent "7.6.3"]
                     :inherit [:managed-dependencies]}
 
   :pedantic? :abort
@@ -34,8 +34,8 @@
                                    :classifier "test"
                                    :scope "test"]]}}
 
-  :plugins  [[lein-parent "0.3.7"]
-             [jonase/eastwood "1.4.2"]
-             [org.openvoxproject/i18n "0.9.4"]]
+  :plugins  [[lein-parent "0.3.9"]
+             [jonase/eastwood "1.4.3"]
+             [org.openvoxproject/i18n "1.0.2"]]
 
   :main puppetlabs.trapperkeeper.main)
