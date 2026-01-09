@@ -2,7 +2,7 @@
 (def kitchensink-version "3.5.5")
 (def i18n-version "1.0.3")
 
-(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.4.1-SNAPSHOT"
+(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.5.0-SNAPSHOT"
   :description "Trapperkeeper filesystem watcher service"
   :url "https://github.com/openvoxproject/trapperkeeper-filesystem-watcher"
   :license {:name "Apache License, Version 2.0"
