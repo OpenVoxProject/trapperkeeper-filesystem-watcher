@@ -25,7 +25,7 @@
 
   :dependencies [[org.clojure/clojure]
                  [org.clojure/tools.logging "1.2.4"]
-                 [prismatic/schema "1.1.12"]
+                 [prismatic/schema "1.4.1"]
                  [clj-commons/fs "1.6.312"]
                  [org.openvoxproject/trapperkeeper]
                  [org.openvoxproject/kitchensink]
