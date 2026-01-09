@@ -1,5 +1,5 @@
 (def trapperkeeper-version "4.3.0")
-(def kitchensink-version "3.5.3")
+(def kitchensink-version "3.5.4")
 (def i18n-version "1.0.2")
 
 (defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.3.1-SNAPSHOT"
