@@ -24,7 +24,7 @@
                          [org.openvoxproject/trapperkeeper ~trapperkeeper-version :classifier "test"]]
 
   :dependencies [[org.clojure/clojure]
-                 [org.clojure/tools.logging "1.2.4"]
+                 [org.clojure/tools.logging "1.3.1"]
                  [prismatic/schema "1.4.1"]
                  [clj-commons/fs "1.6.312"]
                  [org.openvoxproject/trapperkeeper]
