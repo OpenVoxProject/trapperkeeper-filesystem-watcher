@@ -17,6 +17,7 @@
   ;; defined under :dependencies ends up causing an error due to :pedantic? :abort,
   ;; because it is a dep of a dep with a different version, move it here.
   :managed-dependencies [[org.clojure/clojure "1.12.4"]
+                          [clj-time "0.15.2"]
 
                          [org.openvoxproject/kitchensink ~kitchensink-version]
                          [org.openvoxproject/kitchensink ~kitchensink-version :classifier "test"]
