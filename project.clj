@@ -1,6 +1,6 @@
 (def i18n-version "1.0.4")
 
-(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.6.0-SNAPSHOT"
+(defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.6.0"
   :description "Trapperkeeper filesystem watcher service"
   :url "https://github.com/openvoxproject/trapperkeeper-filesystem-watcher"
   :license {:name "Apache License, Version 2.0"
