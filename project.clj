@@ -21,8 +21,8 @@
                          [clj-time "0.15.2"]
                          [org.openvoxproject/kitchensink "3.5.7"]
                          [org.openvoxproject/kitchensink "3.5.7" :classifier "test"]
-                         [org.openvoxproject/trapperkeeper "5.0.0"]
-                         [org.openvoxproject/trapperkeeper "5.0.0" :classifier "test"]
+                         [org.openvoxproject/trapperkeeper "5.0.2"]
+                         [org.openvoxproject/trapperkeeper "5.0.2" :classifier "test"]
                          [prismatic/schema "1.4.1"]]
 
   :dependencies [[org.clojure/clojure]
