@@ -23,7 +23,7 @@
                          [org.openvoxproject/kitchensink "3.5.7" :classifier "test"]
                          [org.openvoxproject/trapperkeeper "5.0.2"]
                          [org.openvoxproject/trapperkeeper "5.0.2" :classifier "test"]
-                         [prismatic/schema "1.4.1"]]
+                         [prismatic/schema "1.4.2"]]
 
   :dependencies [[org.clojure/clojure]
                  [org.clojure/tools.logging]
