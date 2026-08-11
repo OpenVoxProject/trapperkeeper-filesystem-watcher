@@ -1,4 +1,4 @@
-(def i18n-version "1.0.4")
+(def i18n-version "1.0.5")
 
 (defproject org.openvoxproject/trapperkeeper-filesystem-watcher "1.6.1-SNAPSHOT"
   :description "Trapperkeeper filesystem watcher service"
