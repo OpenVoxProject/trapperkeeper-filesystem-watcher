@@ -16,3 +16,7 @@ pom.xml.asc
 .idea
 .eastwood
 .clj-kondo/cache/
+/.bundle
+/.vendor
+/vendor
+/Gemfile.lock
