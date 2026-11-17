@@ -15,7 +15,7 @@
   ;; :managed-dependencies. This prevents endless version conflicts due to deps of deps.
   ;; Renovate should keep the versions largely in sync between projects.
   :managed-dependencies [[org.clojure/clojure "1.12.6"]
-                         [org.clojure/tools.logging "1.3.1"]
+                         [org.clojure/tools.logging "1.3.2"]
 
                          [clj-commons/fs "1.6.312"]
                          [clj-time "0.15.2"]
